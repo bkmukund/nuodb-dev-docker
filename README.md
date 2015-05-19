@@ -11,7 +11,7 @@ Before you install NuoDB, you might want to determine if THP is enabled on your 
 $ cat /sys/kernel/mm/redhat_transparent_hugepage/enabled
 [always] madvise never
 ```
-## Disable TPH ##
+## Disable THP ##
 This should be done on your Linux / boot2docker host as Docker mount these file systems as read-only on docker container
 
 ```bash
@@ -30,7 +30,7 @@ cd nuodb-dev-docker
 docker build -t nuodb2.2 .
 ```
 
-## Running NuoDB Container ## 
+## Run NuoDB Container ## 
 
 ```bash
 docker run -d -p 8888:8888 -p 9001:9001 -p 48004:48004 nuodb2.2
