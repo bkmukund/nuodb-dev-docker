@@ -1,3 +1,6 @@
+# Start ssh
+/etc/init.d/ssh start
+
 echo "Starting nuoagent:"
 /opt/nuodb/etc/nuoagent start
 
