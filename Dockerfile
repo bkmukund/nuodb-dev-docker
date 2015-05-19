@@ -38,7 +38,7 @@ RUN /bin/sed -ie "s/^[# ]*broker =.*/broker = true/" $NUODB_HOME/etc/default.pro
 RUN /bin/sed -ie "s/^[# ]*region =.*/region = DEFAULT_REGION/" $NUODB_HOME/etc/default.properties
 
 # Expose all the necessary ports
-EXPOSE 8080 8888 9001 48004 48005 48006 48007 48008
+EXPOSE 25 8080 8888 9001 48004 48005 48006 48007 48008
 
 # Start NuoDB
 ADD start-nuodb.sh /start-nuodb.sh
