@@ -30,7 +30,8 @@ cd nuodb-dev-docker
 docker build -t nuodb2.2 .
 ```
 
-## Run NuoDB Container ## 
+## Run NuoDB Container ##
+Execute the following command.
 
 ```bash
 docker run -d -p 8888:8888 -p 9001:9001 -p 48004:48004 nuodb2.2
