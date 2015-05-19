@@ -41,5 +41,5 @@ docker run -d -p 8888:8888 -p 9001:9001 -p 48004:48004 nuodb2.2
 ```bash
 http://<host/boot2docker>:8888/
 ```
-Follow instructions @ [Nuodb Admin Center](http://doc.nuodb.com/display/doc/Admin+Center) 
+Follow the instructions @ [Nuodb Admin Center](http://doc.nuodb.com/display/doc/Admin+Center) 
 
