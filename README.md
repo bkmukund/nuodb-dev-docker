@@ -17,6 +17,7 @@ Execute the following command.
 $ sudo docker run --name="mysql"  -d -p 3306:3306 mysql
 ```
 
-Now use MySQL :-
-User:root
+## Now use MySQL ## 
+
+User: root 
 Password: root
